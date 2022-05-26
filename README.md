@@ -9,5 +9,6 @@ Layout html used:
 
 Extra components:
 * Dropdown menu
+*
+![image](https://user-images.githubusercontent.com/67658221/170453178-41c41f50-0cea-4d64-9517-e1a84f9a6b22.png)
 
-![image](https://user-images.githubusercontent.com/67658221/170453103-9d0d1c63-acc4-4c42-b41c-6b5527bb7782.png)
