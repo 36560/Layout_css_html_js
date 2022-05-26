@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+        <link href="./css/style.css" rel="stylesheet" />
+        <title>Project</title>        
+        <script defer type="text/javascript" src="animation.js"></script>
+    </head>
+
+    <body  onload="tableAnimation(2)">       
+        <div class="row d-inline-flex justify-content-center align-items-center vh-100">
+            <div class="col offset-md-5">
+                    <div class="container-flex rectangleBlack">  
+                        <div class="group33">
+                            <div class="verticalMenu">
+                                <div class="rectangle3">
+                                    <img class="logo" src="./images/logo.svg">
+                                </div>
+                                <div class="iconMenu">
+                                    <img src="./images/iconMenu.svg">
+                                </div>
+                                <div class="iconWallet">
+                                    <img src="./images/iconWallet.svg">
+                                </div>
+                                <div class="iconChart" onmouseover="iconChartOver()" onmouseleave="iconChartLeave()">
+                                    <object id="chartSvg" type="image/svg+xml" data="./images/iconChart.svg"></object>                         
+                                </div>
+                                <div class="iconCube">
+                                    <img src="./images/iconCube.svg">
+                                </div>
+                                <div class="iconUser">
+                                    <img src="./images/iconUser.svg">
+                                </div>
+                                <div class="iconLogOut" onmouseover="iconLogoutOver()">
+                                    <object id="logOutSvg" type="image/svg+xml" data="./images/iconLogOut.svg"></object>                         
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="container-flex">
+                            <div class="rectangleWhite">
+                            <div class="row">
+                                <div class="col-5-flex">
+                                    <div class="group30">
+                                        <p class="textOverview">
+                                            Overview
+                                        </p>
+                                        <p class="textPortfolio">
+                                            Portfolio
+                                        </p>                                           
+                  
+                                        <div class="rectangle11">
+                                            <p class="text17">
+                                                $ 17 643.41
+                                            </p>
+                                            <p class="textBalance">
+                                                Portfolio balance
+                                            </p>
+                    
+                                            <div class="vector3">
+                                                <img src="./images/chart.svg">
+                                            </div>
+                                            <div class="group2">                               
+                                                <img src="./images/chartInfo.svg">  
+                                                <p class="chartInfo">$27 482.00</p>
+                                            </div>
+                                            <div class="group4">
+                                                <img src="./images/chartEllipse.svg">               
+                                            </div>
+                    
+                                            <div class="text11">
+                                                <div class="textChart">1H</div>
+                                                <div class="textChart">24H</div>
+                                                <div class="textChart enableCh">1W</div>
+                                                <div class="textChart">1M</div>
+                                                <div class="textChart">1Y</div>
+                                                <div class="textChart">ALL</div>
+                                            </div>
+                                            <div class="group3O">
+                                                <img src="./images/moreOption.svg">  
+                                            </div>
+                                        </div>             
+                                    </div>
+                                </div>                  
+                                <div class="col-2-flex">
+                                    <p class="textAssets">
+                                        Your Assets
+                                    </p>  
+                                    <div class="group35">
+                                        <div class="rectangle13">
+                                            <p class="textInfo">
+                                                1.25 BTC
+                                            </p>
+                                            <p class="textAmount1">
+                                                $ 2948.04
+                                            </p>
+                                            <div class="group3">
+                                                <img src="./images/moreOption.svg">  
+                                            </div>  
+                                            <div class="rectangle14">
+                                                <div class="btc">
+                                                    <img src="./images/btc.svg">  
+                                                </div>    
+                                            </div>                                                      
+                                            <p class="percent">+ 0.14%</p>                                                             
+                                        </div>
+                                    </div>                             
+                                </div>
+                                <div class="col-flex">
+                                    <div class="group31">
+                                        <div class="group9">
+                                            <object id="searchSvg" type="image/svg+xml" data="./images/search.svg"></object>
+                                        </div>
+                                        <div class="group10" onmouseover="notiOver()" onmouseleave="notiLeave()">
+                                            <object id="notiSvg" type="image/svg+xml" data="./images/noti.svg"></object>
+                                        </div>
+                                        <div class="grandson">
+                                            <img src="./images/grandson.svg" height="60px" width="60px">
+                                        </div>
+                                        <div class="rectangle18" onclick="showMenu('optionsUser')">
+                                            <p class="infoName">
+                                                Zoia M.
+                                            </p>
+                                            <div class="arrow2">
+                                                <img src="./images/arrow.svg">
+                                            </div>  
+                                            <div class="optionsUser hide">                                             
+                                                <div>Guest</div>                            
+                                            </div>                          
+                                        </div>
+                                        <div class="group32" onmouseover="settingsAnimationOver()" onmouseleave="settingsAnimationLeave()">   
+                                            <object id="settingsSvg" type="image/svg+xml" data="./images/settingsBtn.svg"></object>
+                                        </div>
+                    
+                                        <div class="rectangle17">
+                                                <p class="textInfo">
+                                                        1.25 ETH
+                                                </p>                                                
+                                                <p class="textAmount1">
+                                                        $ 2948.04
+                                                </p>
+                                                <div class="group3">
+                                                    <img src="./images/moreOption.svg">  
+                                                </div>   
+                                                <div class="rectangle16">
+                                                    <div class="eth">
+                                                        <img src="./images/eth.svg">  
+                                                    </div>    
+                                                </div>                     
+                                                <p class="percent">+ 0.31%</p>       
+                                        </div>     
+                                            
+                                        <div class="rectangle15">
+                                            <p class="textInfo">
+                                                0.32 LTC
+                                            </p>
+                                            <p class="textAmount1">
+                                                $ 2948.04
+                                            </p>
+                                            <div class="group3">
+                                                <img src="./images/moreOption.svg">  
+                                            </div>   
+                                            <div class="rectangle16">
+                                                <div class="ltc">
+                                                    <img src="./images/ltc.svg">  
+                                                </div>    
+                                            </div> 
+                                                <p class="percent">+ 0.27%</p>       
+                                        </div>        
+                                    </div>
+                                </div>                             
+                            </div>
+                            <div class="row">
+                                <div class="col-7"> 
+                                    <div class="row">
+                                        <div class="col-8"> 
+                                            <div class="group15">
+                                                <p class="textInfo2">Market is down 0.80%</p>                                         
+                                            </div>                                              
+                                        </div>   
+                                        <div class="col"> 
+                                            <div class="row">                                           
+                                            <div class="group14">
+                                                <div class="rectangle20" onclick="showMenu('optionsTiming')">
+                                                    <div id="selectedTiming">24H</div>                                                  
+                                                    <div class="arrow2">
+                                                        <img src="./images/arrow.svg">
+                                                    </div>        
+                                                <div class="optionsTiming hide"> 
+                                                    <div>12H</div>
+                                                    <div>6H</div>  
+                                                    <div>48H</div>  
+                                                </div>   
+                                                </div>             
+                                            </div>  
+                                            <div class="group13">
+                                                <div class="rectangle21" onclick="showMenu('options')">
+                                                    <div id="selectedFilter">Top gainers</div>
+                                                    <div class="arrow">
+                                                        <img src="./images/arrow.svg">
+                                                    </div>
+                                                    <div class="options hide"> 
+                                                        <div>Top price</div>
+                                                        <div>Name</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="row">
+                                        <div class="col"> 
+                                        <table id="table" class="table table-sm table-borderless">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" class="textName">Name</th>   
+                                                    <th scope="col" class="textName"></th>    
+                                                    <th scope="col" class="textPrice text-center">Price</th>     
+                                                    <th scope="col" class="textChanee text-right">Chanee</th>     
+                                                    <th scope="col" class="textMarket text-right">Market Cap</th>          
+                                                    <th scope="col" class="textWatch text-right">Watch</th>                                                  
+
+                                                </tr>
+                                              </thead>
+                                              <tbody class="data">
+                                                <tr>
+                                                  <th scope="row">                                                    
+                                                    <div class="img1">
+                                                        <img src="./images/band.svg" width="50px" height="50px">
+                                                    </div>                                                     
+                                                  </th>    
+                                                  <td>                                               
+                                                      <p class="textName1 ">Band Protocol</p>                  
+                                                      <p class="textNameV2">BAND</p>
+                                                  </td>  
+                                                  <td><p class="price">$2.42</p></td>   
+                                                  <td><p class="chanee">+13.38%</p></td>   
+                                                  <td><p class="market">$399.8M</p></td>  
+                                                  <td><div class="star" id="1">
+                                                        <object id="starSvg1" type="image/svg+xml" data="./images/star.svg"></object>
+                                                    </div> 
+                                                   </td>                                
+                                                </tr>
+                                                <tr>
+                                                  <th scope="row">
+                                                    <div class="img1">
+                                                        <img src="./images/vet.svg" width="50px" height="50px">
+                                                    </div>    
+                                                  </th>
+                                                  <td>
+                                                        <p class="textName1">VeChain</p>                    
+                                                        <p class="textNameV2">VET</p>       
+                                                  </td>
+
+                                                  <td><p class="price">$7.48</p></td>
+                                                  <td><p class="chanee">+11.19%</p></td>
+                                                  <td><p class="market">$152.5M</p></td>
+                                                  <td> <div class="star" id="2">
+                                                    <object id="starSvg2" type="image/svg+xml" data="./images/star.svg"></object>
+                                                </div>  </td>
+                                                </tr>
+                                                <tr>
+                                                  <th scope="row">                                                    
+                                                    <div class="img1">
+                                                        <img src="./images/aave.svg" width="50px" height="50px">
+                                                    </div>  
+                                                  </th>
+                                                  <td>
+                                                    <p class="textName1">Aave</p>                    
+                                                    <p class="textNameV2">AAVE</p>   
+                                                  </td>
+                                                  <td><p class="price">$0.0184</p></td>
+                                                  <td><p class="chanee">+7.57%</p></td>
+                                                  <td><p class="market">$1.2B</p></td>
+                                                  <td><div class="star" id="3">
+                                                    <object id="starSvg3" type="image/svg+xml" data="./images/star.svg"></object>
+                                                </div>  </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">                                                    
+                                                        <div class="img1">
+                                                            <img src="./images/waves.svg" width="50px" height="50px">
+                                                        </div>  
+                                                    </th>
+                                                    <td><p class="textName1">Waves</p>                    
+                                                        <p class="textNameV2">WAVES</p>  
+                                                    </td>
+                                                    <td><p class="price">$30.68</p></td>
+                                                    <td><p class="chanee">+6.80%</p></td>
+                                                    <td><p class="market">$399.8M</p></td>
+                                                    <td>
+                                                        <div class="star" id="4">
+                                                            <object id="starSvg4" type="image/svg+xml" data="./images/star.svg"></object>
+                                                        </div>  
+                                                    </td>
+                                                  </tr>
+                                              </tbody>
+                                        </table>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <div class="col">
+                                    <div class="rectangle27">   
+                                        <div class="group34">
+                                            <p class="infoEarn">Earn</p>   
+                                            <p class="infoEarn2">crypto</p>     
+                                            <p class="infoEarn3">with Coinview Earn!</p>                                      
+                                        </div>                                          
+                                        <p class="text34">Learn about different cryptocurrencies and
+                                            earn them for free!</p>
+                                        <div class="free">
+                                            <img src="./images/free.svg" width="97.3px" height="74.73px">
+                                        </div>     
+                                        <div class="frame2">
+                                            <img src="./images/frame2.svg" width="197px" height="171px">
+                                        </div> 
+                                        
+                                        <div class="group27">
+                                            <div class="rectangle30">
+                                                <p class="textEarn">Earn now</p>
+                                            </div>                           
+                                        </div>                    
+                                    </div>
+                                    <div class="rectangle28">
+                                    </div>
+                                    <div class="rectangle29">                        
+                                </div>
+                              
+                            </div>
+
+                        </div>
+                   
+
+                    </div>
+                </div>
+            </div>
+        </div>          
+    </body>
+</html>
