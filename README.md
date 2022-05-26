@@ -1,7 +1,8 @@
 # Layout_css_html_js
-(Only Front-end)
 
-https://htmllayoutnew.000webhostapp.com/
+Layout project (Only Front-end) with animations for hover/click interaction
+
+Webpage: https://htmllayoutnew.000webhostapp.com/
 
 Layout html used:
 * javascript animations (for SVG files)
