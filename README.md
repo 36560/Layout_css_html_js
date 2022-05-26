@@ -9,7 +9,7 @@ Layout html used:
 * css animations
 
 Extra components:
-* Dropdown menu
-*
+* Dropdown menu - sorting table
+
 ![image](https://user-images.githubusercontent.com/67658221/170453178-41c41f50-0cea-4d64-9517-e1a84f9a6b22.png)
 
